@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Nav from './components/Nav';
 import './App.css'
 import Footer from './components/Footer';
+import NewsData from './components/NewsData';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           <Nav />
         </header>
         <main>
+          <NewsData />
           <Switch>
             <Route path='/' component={} />
             <Route path='/' component={} />
