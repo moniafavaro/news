@@ -11,7 +11,12 @@ function App() {
         </header>
         <main>
           <Switch>
-            <Route />
+            <Route path='/' component={} />
+            <Route path='/' component={} />
+            <Route path='/' component={} />
+            <Route path='/' component={} />
+            <Route path='/' component={} />
+            <Route component={NotFound} />
           </Switch>
         </main>
         <footer>
@@ -22,3 +27,4 @@ function App() {
 }
 
 export default App;
+
