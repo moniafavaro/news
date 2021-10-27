@@ -19,7 +19,6 @@ const Home = () => {
 
     return (
         <section>
-            <h1>MONTAN NEWS</h1>
             <div>
                 {news.map((newspiece, i) => (
                 <TopStories key={news[i]} {...newspiece} />

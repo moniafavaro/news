@@ -13,6 +13,7 @@ function App() {
   return (
     <Router>
         <header className='app-header'>
+          <h1>MONTAN NEWS</h1>
           <Nav />
         </header>
         <main>
