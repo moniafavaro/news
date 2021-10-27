@@ -2,14 +2,16 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import TopStories from '../components/TopStories';
 
-const Sport = () => {
+
+const Entertainment = () => {
+
     const [news, setNews] = useState([])
 
     const apiKey = '8c1f3ab3394248629bec933c893a511e'
   
     useEffect(() => {
       async function getNews() {
-        const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=gb&category=sports&apiKey=8c1f3ab3394248629bec933c893a511e`)
+        const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=gb&category=entertainment&apiKey=8c1f3ab3394248629bec933c893a511e`)
         console.log(response.data.articles)
         setNews(response.data.articles)
       }
@@ -24,6 +26,7 @@ const Sport = () => {
         ))}
       </div>
     )
+
 }
 
-export default Sport
+export default Entertainment

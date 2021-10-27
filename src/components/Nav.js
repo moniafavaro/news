@@ -1,6 +1,6 @@
 import { useHistory } from "react-router"
 import { Link } from "react-router-dom"
-import './Nav.css'
+import '../styles/Nav.css'
 
 
 const Nav = () => {
