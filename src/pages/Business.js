@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import TopStories from '../components/TopStories';
+import BusinessStories from '../components/BusinessStories';
 
 const Business = () => {
     const [news, setNews] = useState([])
@@ -18,9 +18,9 @@ const Business = () => {
     
     
     return (
-      <div>
+      <div className='business-positioning'>
         {news.map((newspiece, i) => (
-        <TopStories key={news[i]} {...newspiece} />
+        i <= 8 ? <BusinessStories key={news[i]} {...newspiece}/> : false
         ))}
       </div>
     )

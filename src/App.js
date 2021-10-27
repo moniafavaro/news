@@ -16,7 +16,7 @@ function App() {
           <h1>MONTAN NEWS</h1>
           <Nav />
         </header>
-        <main>
+        <main className='main-pages'>
           <Switch>
             <Route path='/sport' component={Sport} />
             <Route path='/entertainment' component={Entertainment} />
@@ -26,9 +26,6 @@ function App() {
             <Route component={NotFound} />
           </Switch>
         </main>
-        <footer>
-          <Footer />
-        </footer>
     </Router>
   );
 }

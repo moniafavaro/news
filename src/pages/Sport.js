@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import TopStories from '../components/TopStories';
+import SportStories from '../components/SportStories';
 
 const Sport = () => {
     const [news, setNews] = useState([])
@@ -18,9 +18,9 @@ const Sport = () => {
     
     
     return (
-      <div>
+      <div className="sports-positioning">
         {news.map((newspiece, i) => (
-        <TopStories key={news[i]} {...newspiece} />
+          i <= 8 ? <SportStories key={news[i]} {...newspiece}/> : false
         ))}
       </div>
     )

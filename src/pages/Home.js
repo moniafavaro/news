@@ -21,7 +21,7 @@ const Home = () => {
         <section>
             <div>
                 {news.map((newspiece, i) => (
-                <TopStories key={news[i]} {...newspiece} />
+                i <= 8 ? <TopStories key={news[i]} {...newspiece}/> : false
                 ))}
             </div>
         </section>
