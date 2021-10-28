@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.home-top {
+    margin: auto;
+    margin-top: 2%;
+    width: 80%;
+    text-align: center;
+    border: 2px solid black;
+    height: 50%;
+    margin-bottom: 2%;
+}
+
+.home-top h3 {
+    font-size: 2em;
+}
+
+.home-top img {
+    width: 97%;
+}
+
+.home-bottom {
+    display: flex;
+    width: 90%;
+    height: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.home-bottom .top-stories {
+    width: 40%;
+    border: 2px solid black;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+/* .top-stories img {
+    height: 77.5%;
+    width: 99%;
+} */

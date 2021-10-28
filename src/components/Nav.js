@@ -1,5 +1,6 @@
 import { useHistory } from "react-router"
 import { Link } from "react-router-dom"
+import SearchBar from "../pages/SearchBar"
 import '../styles/Nav.css'
 
 
@@ -10,6 +11,9 @@ const Nav = () => {
         <>
             <nav>
                 <ul>
+                    <li className='name'>
+                        <p>MONTANnews</p>
+                    </li>
                     <li>
                         <Link to='/'>HOME</Link>
                     </li>
@@ -24,6 +28,9 @@ const Nav = () => {
                     </li>
                     <li>
                         <Link to='/about'>ABOUT</Link>
+                    </li>
+                    <li className='search-bar'>
+                        <SearchBar />
                     </li>
                 </ul>
             </nav>

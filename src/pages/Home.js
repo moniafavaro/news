@@ -17,11 +17,17 @@ const Home = () => {
     getNews()
     }, [])
 
+
     return (
         <section>
-            <div>
+            <div className='home-top'>
                 {news.map((newspiece, i) => (
-                i <= 8 ? <TopStories key={news[i]} {...newspiece}/> : false
+                i <= 0 ? <TopStories key={news[i]} {...newspiece}/> : false
+                ))}
+            </div>
+            <div className='home-bottom'>
+                {news.map((newspiece, i) => (
+                i > 0 && i <= 4 ? <TopStories key={news[i]} {...newspiece}/> : false
                 ))}
             </div>
         </section>
