@@ -11,23 +11,20 @@ const Nav = () => {
         <>
             <nav>
                 <ul>
-                    <li className='name'>
-                        <p>MONTANnews</p>
+                    <li>
+                        <Link to='/'>Home</Link>
                     </li>
                     <li>
-                        <Link to='/'>HOME</Link>
+                        <Link to='/sport'>Sports</Link>
                     </li>
                     <li>
-                        <Link to='/sport'>SPORT</Link>
+                        <Link to='/entertainment'>Entertainment</Link>
                     </li>
                     <li>
-                        <Link to='/entertainment'>ENTERTAINMENT</Link>
+                        <Link to='/business'>Business</Link>
                     </li>
                     <li>
-                        <Link to='/business'>BUSINESS</Link>
-                    </li>
-                    <li>
-                        <Link to='/about'>ABOUT</Link>
+                        <Link to='/about'>About</Link>
                     </li>
                     <li className='search-bar'>
                         <SearchBar />

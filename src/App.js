@@ -1,15 +1,14 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Nav from './components/Nav';
+import { NotFound } from 'http-errors'
+import { useState } from 'react'
+import Nav from './components/Nav'
+import Sport from './pages/Sport'
+import Entertainment from './pages/Entertainment'
+import Business from './pages/Business'
+import About from './pages/About'
+import Home from './pages/Home'
+import Search from './pages/Search'
 import './styles/App.css'
-import Footer from './components/Footer';
-import Sport from './pages/Sport';
-import Entertainment from './pages/Entertainment';
-import Business from './pages/Business';
-import About from './pages/About';
-import Home from './pages/Home';
-import { NotFound } from 'http-errors';
-import Search from './pages/Search';
-import { useState } from 'react';
 
 function App() {
   const [search, setSearch] = useState()
@@ -21,7 +20,9 @@ function App() {
   return (
     <Router>
       <header className="app-header">
+        <h2 className='name'>MONTANnews</h2>
         <Nav />
+        <hr></hr>
       </header>
       <main className="main-pages">
         <Switch>

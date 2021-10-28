@@ -1,17 +1,16 @@
+
 nav {
-    border: 1px solid black;
-    background-color: rgb(211, 206, 197);
+    background-color: white;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-
 }
 
 ul li {
-    font-size: 1.8em;
+    font-size: 1.4em;
     margin: auto;
     justify-content: space-evenly;
 }
@@ -20,7 +19,6 @@ li a {
     text-decoration: none;
     color: black;
     padding: 5px;
-    border: 1px solid grey;
 }
 
 li .search-bar {
@@ -30,9 +28,4 @@ li .search-bar {
 
 #category-search {
     display: flex;
-}
-
-li .name {
-    display: flex;
-    font-size: 12px;
 }
