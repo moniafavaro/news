@@ -9,7 +9,9 @@ const NewsData = () => {
 
   useEffect(() => {
     async function getNews() {
-      const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=gb&apiKey=38e2212a69f943c58ae6b087ad833ad6`)
+      const response = await axios.get(
+        `https://newsapi.org/v2/top-headlines?country=gb&apiKey=f0043f2035b34ff3b5934f9f39e51873`
+      );
       console.log(response.data.articles)
       setNews(response.data.articles)
     }

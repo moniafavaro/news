@@ -20,7 +20,6 @@ function App() {
   return (
     <Router>
       <header className="app-header">
-        <h2 className='name'>MONTANnews</h2>
         <Nav />
         <hr></hr>
       </header>

@@ -11,6 +11,7 @@ const Nav = () => {
         <>
             <nav>
                 <ul>
+                    <img src="https://i.ibb.co/Cb8Np5j/logo-01.png" alt="logo-01" width='156em'/>
                     <li>
                         <Link to='/'>Home</Link>
                     </li>

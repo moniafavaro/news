@@ -2,6 +2,8 @@ import "../styles/Home.css";
 // import "../styles/App.css";
 
 const TopStories = ({ title, description, url, urlToImage }) => {
+
+
   return (
     <div className="top-stories">
       <div className="left-box">

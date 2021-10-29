@@ -10,7 +10,9 @@ const Home = () => {
 
     useEffect(() => {
     async function getNews() {
-        const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=gb&apiKey=38e2212a69f943c58ae6b087ad833ad6`)
+        const response = await axios.get(
+          `https://newsapi.org/v2/top-headlines?country=gb&apiKey=f0043f2035b34ff3b5934f9f39e51873`
+        );
         console.log(response.data.articles)
         setNews(response.data.articles)
     }
@@ -25,8 +27,12 @@ const Home = () => {
                 i <= 0 ? <TopStories key={news[i]} {...newspiece}/> : false
                 ))}
             </div>
+            <hr className='home-hr'></hr>
             <div className='home-bottom'>
                 {news.map((newspiece, i) => (
+                    // if (news[0].description.length < 50) {
+                    //     i += 1
+                    // }
                 i > 0 && i <= 2 ? <TopStories key={news[i]} {...newspiece}/> : false
                 ))}
             </div>

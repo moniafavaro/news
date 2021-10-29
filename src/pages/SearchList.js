@@ -1,14 +1,16 @@
+
+
 const SearchList = ({ title, description, url, urlToImage }) => {
     return (
       <div className="search-list-box">
         <div className="left-box">
-        <h3>
-          <a target="_blank" href={url}>
-            {title}
-          </a>
-        </h3>
+          <h3>
+            <a target="_blank" href={url}>
+              {title}
+            </a>
+          </h3>
+          <p>{description}</p>
         </div>
-        <p>{description}</p>
         <div className="right-box">
         <picture>
           <img
