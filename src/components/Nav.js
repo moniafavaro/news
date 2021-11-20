@@ -1,11 +1,11 @@
-import { useHistory } from "react-router"
+// import { useHistory } from "react-router"
 import { Link } from "react-router-dom"
 import SearchBar from "../pages/SearchBar"
 import '../styles/Nav.css'
 
 
 const Nav = () => {
-    const history = useHistory()
+    // const history = useHistory()
 
     return (
         <>

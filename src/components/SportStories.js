@@ -5,7 +5,7 @@ const SportStories = ({ title, description, url, urlToImage }) => {
       <div className="sports-box">
         <div className="left-box">
         <h3>
-          <a target="_blank" href={url}>
+          <a target="_blank" href={url} rel="noreferrer">
             {title}
           </a>
         </h3>

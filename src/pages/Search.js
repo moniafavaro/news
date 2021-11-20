@@ -11,8 +11,6 @@ function useQuery() {
 const Search = () => {
   const [news, setNews] = useState([])
   let query = useQuery()
-
-  const apiKey = '8c1f3ab3394248629bec933c893a511e'
     
   async function getSearchedNews() {
       const response = await axios.get(

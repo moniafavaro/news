@@ -1,32 +1,32 @@
-
 nav {
-    background-color: white;
-    margin-top: 5px;
+  background-color: white;
+  margin-top: 5px;
 }
 
 ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
 ul li {
-    font-size: 1.4em;
-    margin: auto;
-    justify-content: space-evenly;
+  font-size: 1.4em;
+  margin: auto;
+  justify-content: space-evenly;
 }
 
 li a {
-    text-decoration: none;
-    color: black;
-    padding: 5px;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
 }
 
 li .search-bar {
-    display: flex;
-    padding: 12px;
+  display: flex;
+  padding: 12px;
 }
 
 #category-search {
-    display: flex;
+  display: flex;
+  flex-direction: column;
 }

@@ -5,8 +5,6 @@ import '../styles/App.css'
 
 const Sport = () => {
     const [news, setNews] = useState([])
-
-    const apiKey = '8c1f3ab3394248629bec933c893a511e'
   
     useEffect(() => {
       async function getNews() {

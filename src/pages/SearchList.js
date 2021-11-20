@@ -5,7 +5,7 @@ const SearchList = ({ title, description, url, urlToImage }) => {
       <div className="search-list-box">
         <div className="left-box">
           <h3>
-            <a target="_blank" href={url}>
+            <a target="_blank" href={url} rel="noreferrer">
               {title}
             </a>
           </h3>

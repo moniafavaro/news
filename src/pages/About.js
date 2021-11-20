@@ -12,13 +12,15 @@ const About = () => {
         </p>
         <p>
           Kirtan Patel{" "}
-          <a target="_blank" href="https://github.com/kirtantp"><img 
-            src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" 
+          <a target="_blank" rel="noreferrer" href="https://github.com/kirtantp"><img 
+            src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"
+            alt="Github" 
             width="35px"
             height="25px" /></a>
           
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/kirtan-patel-30681b110/"
           >
           <img
@@ -32,11 +34,15 @@ const About = () => {
           <a target="_blank" href="https://github.com/moniafavaro"><img 
             src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" 
             width="35px"
+            alt="Github"
+            rel="noreferrer"
             height="25px"/></a>
           
           <a target="_blank" href="https://www.linkedin.com/in/moniafavaro/"><img
             src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
             width="15px"
+            alt="Github"
+            rel="noreferrer"
             height="25px"
           /></a>
         </p>
