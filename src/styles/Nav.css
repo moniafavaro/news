@@ -23,10 +23,11 @@ li a {
 
 li .search-bar {
   display: flex;
-  padding: 12px;
+  /* padding: 12px; */
+  flex-wrap: wrap;
 }
 
-#category-search {
+/* #category-search {
   display: flex;
   flex-direction: column;
-}
+} */

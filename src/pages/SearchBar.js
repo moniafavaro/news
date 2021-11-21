@@ -42,7 +42,7 @@ const SearchBar = () => {
         />  
         <input className="go-button" type="submit" value="GO" />
       </form>
-          <div className="search-options">
+          <select className="search-options">
         {categories.filter((val) => {
           if (search === "") {
             return val 
@@ -51,13 +51,19 @@ const SearchBar = () => {
           }
         }).map((val, key) => {
           return (
-            <div>
-             <p className="option" key={key}>{val}</p>
-            </div>
+             <option 
+             className="option" 
+             key={key}
+             onClick={(event) => {
+              event.preventDefault()
+              setSearch(event.target.value)
+             }}
+             onSubmit={handleSubmit}
+             >{val}</option>
           )
         })
         }
-        </div>
+        </select>
         </>
     );
 }

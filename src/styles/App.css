@@ -128,11 +128,27 @@ hr {
   height: 100%;
 }
 
+.search-bar {
+}
+
+#category-search {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .search-options {
-  margin-top: 5px;
-  border: 1px solid black;
+  font-size: 0.8rem;
+  max-height: 50px;
   z-index: 1;
   overflow: scroll;
-  height: 100px;
-  font-size: 0.8rem;
+  font-family: "Vast Shadow", cursive;
+}
+
+#category {
+  width: 80%;
+}
+
+.go-button {
+  width: 20%;
+  height: 50%;
 }
