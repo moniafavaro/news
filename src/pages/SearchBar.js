@@ -30,6 +30,7 @@ const SearchBar = () => {
    
     
     return (
+      <>
       <form id="category-search" method="GET" onSubmit={handleSubmit}>
         <input
           type="search"
@@ -39,7 +40,9 @@ const SearchBar = () => {
           value={search}
           onChange={handleChange}
         />  
-        <div className="search-options">
+        <input className="go-button" type="submit" value="GO" />
+      </form>
+          <div className="search-options">
         {categories.filter((val) => {
           if (search === "") {
             return val 
@@ -55,8 +58,7 @@ const SearchBar = () => {
         })
         }
         </div>
-        <input type="submit" value="GO" />
-      </form>
+        </>
     );
 }
 
