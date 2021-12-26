@@ -1,4 +1,4 @@
-## First pair programming project with GA 
+## MontanNews: First pair programming project with GA 
 
 # Brief
 
