@@ -27,6 +27,15 @@ As we learnt through the course, it is best practice to start with a pseudocode.
 
 So we had a wireframe to show how we wanted the website to look like, and the pseudocode with all the functionalities we wanted to add.
 
+This is the wireframe for homepage:
+![homepage](https://user-images.githubusercontent.com/60261970/148035736-04082bca-4752-453a-8df4-4c07e236993a.png)
+
+This is for the other pages, Businnes, Sports and Entertainment:
+![other_pages](https://user-images.githubusercontent.com/60261970/148035841-05dea9cb-61a0-4605-9faf-54f8595b8fab.png)
+
+And the about page:
+![about_page](https://user-images.githubusercontent.com/60261970/148035854-c9ba139d-ec9e-4a98-9cfc-045e9dd8f81e.png)
+
 We used an API from where we could get the updated news.
 
 First part was to make the homepage work with a few news and centering then in each box.
