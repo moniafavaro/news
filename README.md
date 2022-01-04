@@ -53,11 +53,9 @@ When the homepage was working just fine, we started with the other pages that we
 ![sports_page](https://user-images.githubusercontent.com/60261970/148037328-26cac3b9-db72-47d0-aa38-5907f136618a.png)
 ![entertainment_page](https://user-images.githubusercontent.com/60261970/148037334-36713e7e-f4ed-4ed3-b5a2-1ee07781fb65.png)
 
-The other pages code is basically the same way
+To set the other pages was easy, we just had to make something similar with the home page and the code for them is basically the same.
 
-![business_code](https://user-images.githubusercontent.com/60261970/148037954-4d738e4a-362a-4bd8-b9ff-5c6fe6948f90.png)
-
-To set the other pages was easy, we just had to make something similar with the home page.
+![business_code](https://user-images.githubusercontent.com/60261970/148038207-87b5db38-ed64-4a4d-bbc1-5dafc2bf2c59.png)
 
 When the other pages were working perfectly, we decided to add a search bar.
 
