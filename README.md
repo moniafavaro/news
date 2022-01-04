@@ -35,27 +35,18 @@ This is for the other pages, Business, Sports and Entertainment:
 
 ![other_pages](https://user-images.githubusercontent.com/60261970/148035841-05dea9cb-61a0-4605-9faf-54f8595b8fab.png)
 
-And the about page:
-
-![about_page](https://user-images.githubusercontent.com/60261970/148035854-c9ba139d-ec9e-4a98-9cfc-045e9dd8f81e.png)
-
 We used an API from where we could get the updated news.
 
 First part was to make the homepage work with a few news and centering then in each box.
 
 ![homepage_done](https://user-images.githubusercontent.com/60261970/148036888-c4b4446a-cdaf-4374-812f-6f14a10b3c6c.png)
 
-![homepage_code](https://user-images.githubusercontent.com/60261970/148037694-e6380e20-d54c-4da6-8971-e0a2d17fd08c.png)
-
 When the homepage was working just fine, we started with the other pages that we set to have, those was 'Business', 'Sports' and 'Entertainment'.
 
-![business_page](https://user-images.githubusercontent.com/60261970/148037306-a46d8958-914a-4dc5-8d91-19edf6713c22.png)
 ![sports_page](https://user-images.githubusercontent.com/60261970/148037328-26cac3b9-db72-47d0-aa38-5907f136618a.png)
 ![entertainment_page](https://user-images.githubusercontent.com/60261970/148037334-36713e7e-f4ed-4ed3-b5a2-1ee07781fb65.png)
 
 To set the other pages was easy, we just had to make something similar with the home page and the code for them is basically the same.
-
-![business_code](https://user-images.githubusercontent.com/60261970/148038207-87b5db38-ed64-4a4d-bbc1-5dafc2bf2c59.png)
 
 When the other pages were working perfectly, we decided to add a search bar.
 
