@@ -27,7 +27,7 @@ As we learnt through the course, it is best practice to start with a pseudocode.
 
 So we had a wireframe to show how we wanted the website to look like, and the pseudocode with all the functionalities we wanted to add.
 
-This is the wireframe for homepage:
+This is the wireframe for the homepage:
 
 ![homepage](https://user-images.githubusercontent.com/60261970/148035736-04082bca-4752-453a-8df4-4c07e236993a.png)
 
@@ -37,11 +37,11 @@ This is for the other pages, Business, Sports and Entertainment:
 
 We used an API from where we could get the updated news.
 
-First part was to make the homepage work with a few news and centering then in each box.
+First part was to make the homepage work with a few news and centering them in each box.
 
 ![homepage_done](https://user-images.githubusercontent.com/60261970/148036888-c4b4446a-cdaf-4374-812f-6f14a10b3c6c.png)
 
-When the homepage was working just fine, we started with the other pages that we set to have, those was 'Business', 'Sports' and 'Entertainment'.
+When the homepage was working just fine, we started with the other pages that we set to have, those ware 'Business', 'Sports' and 'Entertainment'.
 
 ![sports_page](https://user-images.githubusercontent.com/60261970/148037328-26cac3b9-db72-47d0-aa38-5907f136618a.png)
 ![entertainment_page](https://user-images.githubusercontent.com/60261970/148037334-36713e7e-f4ed-4ed3-b5a2-1ee07781fb65.png)
@@ -52,10 +52,10 @@ When the other pages were working perfectly, we decided to add a search bar.
 
 That was the next step, when the search bar was working our job was done.
 
-We only had 48 hours to finish this project, so the website don't have many functionalities, but it work very well and satisfies the NVP.
+We only had 48 hours to finish this project, so the website ddoesn't have many functionalities, but it works very well and satisfies the MVP.
 
 
-# Framework used
+# Framework Used
 
 * JavaScript
 * CSS3
@@ -68,7 +68,7 @@ We only had 48 hours to finish this project, so the website don't have many func
 
 # Teamwork
 
-As far as teamwork goes, Kirtan and I worked really well together, we both used the VSCode LiveShare extension from my desktop and discusssed every piece of code + descision when we started working together. However, without telling each other, myself and Kirtan had done some homework prior to the day we started working. Kirtan simply made the request to grab all the data with the function below so we could start manipulating the data and displaying it and I had already worked on the `navigation bar` and had made sure we can click on a page. We both surprised each other and I think it shows that we are both willing to go the extra mile for the team.
+As far as teamwork goes, Kirtan and I worked really well together, we both used the VSCode LiveShare extension from my desktop and discussed every piece of code and decision when we started working together. However, without telling each other, myself and Kirtan had done some homework prior to the day we started working. Kirtan simply made the request to grab all the data with the function below so we could start manipulating the data and displaying it and I had already worked on the `navigation bar` and had made sure we could click on a page. We both surprised each other and I think it shows that we are both willing to go the extra mile for the team.
 
 ```
 useEffect(() => {
