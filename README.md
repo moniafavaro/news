@@ -4,25 +4,25 @@ https://user-images.githubusercontent.com/60261970/147978301-07d90d64-2740-45d9-
 
 
 # Description
-----------------------------
+
 First pair programming project with GA.
 
 Designed a news website aggregator where you can see the top news in the UK, using JavaScript, ReactJS and CSS.  Timeframe: 48 hours.
 
 # Deployment
-----------------------------
+
 The website can be viewed here, however, we have found out that the api only works locally:
 
 https://montannews2021.netlify.app/
  
 # Inspiration
-----------------------------
+
 For this project in pair programming we decided to go with a news website aggregator, where people can see the top news in the UK and read them in the place they were originally published. 
 
 The design was inspired by "The New York Times", the website being in black and white.
 
 # Getting Started
-----------------------------
+
 As we learnt through the course, it is best practice to start with a pseudocode.
 
 So we had a wireframe to show how we wanted the website to look like, and the pseudocode with all the functionalities we wanted to add.
@@ -43,7 +43,7 @@ We only had 48 hours to finish this project, so the website don't have many func
 
 
 # Framework used
-----------------------------
+
 * JavaScript
 * CSS3
 * ReactJS
@@ -52,8 +52,9 @@ We only had 48 hours to finish this project, so the website don't have many func
 * Chrome
 * Git and GitHub
 
+
 # Teamwork
-----------------------------
+
 As far as teamwork goes, Kirtan and I worked really well together, we both used the VSCode LiveShare extension from my desktop and discusssed every piece of code + descision when we started working together. However, without telling each other, myself and Kirtan had done some homework prior to the day we started working. Kirtan simply made the request to grab all the data with the function below so we could start manipulating the data and displaying it and I had already worked on the `navigation bar` and had made sure we can click on a page. We both surprised each other and I think it shows that we are both willing to go the extra mile for the team.
 
 ```
@@ -71,7 +72,7 @@ useEffect(() => {
 ```
 
 # Development Process
-----------------------------
+
 #### Search Bar
 
 Below is a video displaying how our search bar works (something we worked on together). I think it's the best piece of JavaScript we have running in the background. I was really proud of this. First we loop through the possible list of categories the user can possibly search through using a `for loop`, if the user searches for one of the possible options listed in the dropdown menu they will be taken to the respective page. The user can also navigate through the `dropdown menu` and click on a given category.
