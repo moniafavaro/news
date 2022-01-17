@@ -1,15 +1,15 @@
-## MONTANnews - Website tour
+## MONTANnews
 
 https://user-images.githubusercontent.com/60261970/147978301-07d90d64-2740-45d9-b534-11699398e0ed.mp4
 
 
-# Description
+## Goal
 
-First pair programming project with GA.
 
-Designed a news website aggregator where you can see the top news in the UK, using JavaScript, ReactJS and CSS.  Timeframe: 48 hours.
 
-# Deployment
+Design a news website aggregator where you can see the top news in the UK, using JavaScript, ReactJS and CSS.  Timeframe: 48 hours.
+
+## Deployment
 
 The website can be viewed here, however, we have found out that the api only works locally:
 
