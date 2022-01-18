@@ -32,8 +32,8 @@ https://montannews2021.netlify.app/
 ## Getting Started
 
 1. Access the source code via the 'Clone or download' button.
-2. In CLI, run yarn on the root level to install dependencies.
-3. Run yarn start to run program in your local environment.
+2. In CLI, run `yarn` on the root level to install dependencies.
+3. Run `npm start` to run program in your local environment.
 
 ## Technologies Used
 
