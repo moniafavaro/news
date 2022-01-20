@@ -102,7 +102,7 @@ I think it's the best piece of JavaScript we have running in the background. I w
 * The user can also navigate through the `dropdown menu` and click on a given category.
 
 <p align='center'>
-    <img width='600' height='180' src='https://user-images.githubusercontent.com/60261970/150326952-163d91d4-e2d8-4e4a-b757-029caad5ee00.png'>
+    <img width='700' height='380' src='https://user-images.githubusercontent.com/60261970/150326952-163d91d4-e2d8-4e4a-b757-029caad5ee00.png'>
 </p>
 
 
@@ -111,7 +111,7 @@ I think it's the best piece of JavaScript we have running in the background. I w
 * To get the latest news articles we used the below function: 
 
 <p align='center'>
-    <img width='600' height='180' src='https://user-images.githubusercontent.com/60261970/149940131-4d7098d6-fe31-4ad8-9f1d-c0360f7160b5.png'>
+    <img width='600' height='280' src='https://user-images.githubusercontent.com/60261970/149940131-4d7098d6-fe31-4ad8-9f1d-c0360f7160b5.png'>
 </p>
 
 * Then returns the articles mapped through the `array` using the below method.
