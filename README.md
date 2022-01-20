@@ -138,7 +138,7 @@ I think it's the best piece of JavaScript we have running in the background. I w
 ## Future Features
 
 * Pagination: displaying more data on different pages would make the website look almost complete.
-* Different sections on main page, maybe a card on the right side with other news articles.
+* Different sections on the main page, maybe a card on the right side with other news articles.
 * Make the search bar more stylish.
 
 ## Key Learnings
