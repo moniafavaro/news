@@ -91,9 +91,20 @@ We only had 48 hours to finish this project, so the website doesn't have many fu
 
 #### Search Bar
 
-Below is a video displaying how our search bar works (something we worked on together). I think it's the best piece of JavaScript we have running in the background. I was really proud of this. First we loop through the possible list of categories the user can possibly search through using a `for loop`, if the user searches for one of the possible options listed in the dropdown menu they will be taken to the respective page. The user can also navigate through the `dropdown menu` and click on a given category.
+Below is a video displaying how our search bar works (something we worked on together). 
 
 https://user-images.githubusercontent.com/60261970/147979573-2be7d49f-e6ec-4470-aea1-8cc92c3683d0.mp4
+
+I think it's the best piece of JavaScript we have running in the background. I was really proud of this. 
+
+* First we loop through the possible list of categories the user can possibly search through using a `for loop`.
+* If the user searches for one of the possible options listed in the dropdown menu they will be taken to the respective page. 
+* The user can also navigate through the `dropdown menu` and click on a given category.
+
+<p align='center'>
+    <img width='600' height='180' src='https://user-images.githubusercontent.com/60261970/150326952-163d91d4-e2d8-4e4a-b757-029caad5ee00.png'>
+</p>
+
 
 #### Returning News Articles from the API
 
@@ -127,6 +138,8 @@ https://user-images.githubusercontent.com/60261970/147979573-2be7d49f-e6ec-4470-
 ## Future Features
 
 * Pagination: displaying more data on different pages would make the website look almost complete.
+* Different sections on main page, maybe a card on the right side with other news articles.
+* Make the search bar more stylish.
 
 ## Key Learnings
 
